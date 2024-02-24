@@ -1,0 +1,30 @@
+.section-title {
+  margin: 20px 15px;
+  color: rgb(64, 64, 103);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.12px;
+  margin-bottom: 40px;
+}
+
+.section-text {
+  margin: 20px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.section-list {
+  margin: 20px 15px;
+}
+
+.section-item {
+  font-size: 14px;
+}
+
+.section-item:hover {
+  cursor: pointer;
+  color: blue;
+}
