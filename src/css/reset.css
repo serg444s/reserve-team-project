@@ -1,4 +1,13 @@
 /* Reset styles */
+
+/* У нормалізаторі modern-normalize за умовчанням задано глобальний border-box. Отже, якщо його підключено до проєкту, то у своїх стилях box-sizing можна не вказувати */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
