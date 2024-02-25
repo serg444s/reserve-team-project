@@ -6,17 +6,12 @@ h4,
 h5,
 h6,
 p {
+  font-family: 'Tahoma';
   margin: 0;
 }
 
 p:last-child {
   margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 a {
@@ -39,9 +34,20 @@ img {
 ::after {
   box-sizing: border-box;
 }
+
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+  color: #2a2a2a;
+  background-color: #fafafa;
 }
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
