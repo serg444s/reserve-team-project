@@ -1,0 +1,47 @@
+.hero {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 300px;
+  padding: 10px;
+  background-color: #2a2a2a;
+  background-image: url(../img/1671711483_kalix-club-p-fon-ofis-pinterest-10.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.hero-title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.hero-title span {
+  color: blue;
+}
+
+.hero-text {
+  font-size: 20px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.hero-btn {
+  padding: 10px 25px;
+  background-color: blue;
+  color: aliceblue;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  font-weight: bold;
+}
+
+.hero-btn:hover {
+  background-color: aqua;
+  color: #2a2a2a;
+}
