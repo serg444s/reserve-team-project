@@ -22,7 +22,7 @@
   content: '-';
   width: 20px;
   height: 2px;
-  color: bisque;
+  color: transparent;
 }
 
 .nav-link:hover {
