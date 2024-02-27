@@ -1,11 +1,55 @@
-.section-title {
-  margin: 20px 15px;
-  color: rgb(64, 64, 103);
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -1.12px;
-  margin-bottom: 40px;
+.section-list-title {
+  margin: 30px 20px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 108%;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+}
+
+.section-list-title span {
+  color: rgb(81, 36, 126);
+}
+
+.section-list-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-list-item {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: calc((100% - 30px) / 3);
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopping-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shoping-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112%;
+  letter-spacing: -0.04em;
+}
+
+.shopping-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.04em;
+  color: #b4afaf;
 }
 
 .section-text {
