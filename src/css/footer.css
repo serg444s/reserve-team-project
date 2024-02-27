@@ -15,3 +15,14 @@
 .footer-item:hover {
   color: blue;
 }
+
+.svg-scroll {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+}
+
+.svg-scroll:hover {
+  border: 1px solid blue;
+  border-radius: 50%;
+}
