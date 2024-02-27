@@ -1,0 +1,14 @@
+.section-list-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.section-item-3 {
+  width: calc((100% - 30px) / 3);
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: aliceblue;
+}
